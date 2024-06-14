@@ -9,6 +9,31 @@
 <body>
     <div class="wrapper">
         <p id="content">Press Generate to create uniq random password</p>
+
+        <form>
+            <fieldset class="formSet">
+                <label for="uppercase">
+                    <input type="checkbox" id="uppercase">
+                    include upper case
+                </label>
+        
+                <label for="lowercase">
+                    <input type="checkbox" id="lowercase">
+                    include lower case</label>
+                </label>
+        
+                <label for="symbols">
+                    <input type="checkbox" id="symbols">
+                    include symbols
+                </label>
+        
+                <label for="numbers">
+                    <input type="checkbox" id="numbers">
+                    include numbers
+                </label>
+            </fieldset>
+        </form>
+
         <div>
             <button type="button" id="generate">Generate</button>
             <button type="button" id="clear">Clear</button>
