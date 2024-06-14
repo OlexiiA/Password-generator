@@ -26,6 +26,10 @@ margin: auto;
   flex-direction: column;
 }
 
+.passLength {
+  margin:10px;
+  text-align: center;
+}
 
 #generate {
     width: 100px;

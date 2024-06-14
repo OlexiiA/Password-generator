@@ -11,24 +11,29 @@
         <p id="content">Press Generate to create uniq random password</p>
 
         <form>
+            <label for="myRange">Password length
+            <input type="range" id="myRange" min="6" max="18" value="12">
+            <p id="passwordLength" class="passLength"></p>
+            </label>
+
             <fieldset class="formSet">
                 <label for="uppercase">
-                    <input type="checkbox" id="uppercase">
+                    <input type="radio" id="uppercase">
                     include upper case
                 </label>
         
                 <label for="lowercase">
-                    <input type="checkbox" id="lowercase">
+                    <input type="radio" id="lowercase">
                     include lower case</label>
                 </label>
         
                 <label for="symbols">
-                    <input type="checkbox" id="symbols">
+                    <input type="radio" id="symbols">
                     include symbols
                 </label>
         
                 <label for="numbers">
-                    <input type="checkbox" id="numbers">
+                    <input type="radio" id="numbers">
                     include numbers
                 </label>
             </fieldset>
